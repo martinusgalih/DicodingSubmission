@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9049673126B0662200019688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049673026B0662200019688 /* AppDelegate.swift */; };
+		9049673326B0662200019688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049673226B0662200019688 /* SceneDelegate.swift */; };
+		9049673526B0662200019688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049673426B0662200019688 /* ViewController.swift */; };
+		9049673826B0662200019688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9049673626B0662200019688 /* Main.storyboard */; };
+		9049673B26B0662200019688 /* DicodingSubmission.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9049673926B0662200019688 /* DicodingSubmission.xcdatamodeld */; };
+		9049673D26B0662400019688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9049673C26B0662400019688 /* Assets.xcassets */; };
+		9049674026B0662400019688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9049673E26B0662400019688 /* LaunchScreen.storyboard */; };
+		9049674B26B0662400019688 /* DicodingSubmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049674A26B0662400019688 /* DicodingSubmissionTests.swift */; };
+		9049675626B0662400019688 /* DicodingSubmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049675526B0662400019688 /* DicodingSubmissionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9049674726B0662400019688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9049672526B0662200019688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9049672C26B0662200019688;
+			remoteInfo = DicodingSubmission;
+		};
+		9049675226B0662400019688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9049672526B0662200019688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9049672C26B0662200019688;
+			remoteInfo = DicodingSubmission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9049672D26B0662200019688 /* DicodingSubmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicodingSubmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049673026B0662200019688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9049673226B0662200019688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9049673426B0662200019688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9049673726B0662200019688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9049673A26B0662200019688 /* DicodingSubmission.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DicodingSubmission.xcdatamodel; sourceTree = "<group>"; };
+		9049673C26B0662400019688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9049673F26B0662400019688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9049674126B0662400019688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9049674626B0662400019688 /* DicodingSubmissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicodingSubmissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049674A26B0662400019688 /* DicodingSubmissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicodingSubmissionTests.swift; sourceTree = "<group>"; };
+		9049674C26B0662400019688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9049675126B0662400019688 /* DicodingSubmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicodingSubmissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9049675526B0662400019688 /* DicodingSubmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicodingSubmissionUITests.swift; sourceTree = "<group>"; };
+		9049675726B0662400019688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9049672A26B0662200019688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049674326B0662400019688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049674E26B0662400019688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9049672426B0662200019688 = {
+			isa = PBXGroup;
+			children = (
+				9049672F26B0662200019688 /* DicodingSubmission */,
+				9049674926B0662400019688 /* DicodingSubmissionTests */,
+				9049675426B0662400019688 /* DicodingSubmissionUITests */,
+				9049672E26B0662200019688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9049672E26B0662200019688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9049672D26B0662200019688 /* DicodingSubmission.app */,
+				9049674626B0662400019688 /* DicodingSubmissionTests.xctest */,
+				9049675126B0662400019688 /* DicodingSubmissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9049672F26B0662200019688 /* DicodingSubmission */ = {
+			isa = PBXGroup;
+			children = (
+				9049673026B0662200019688 /* AppDelegate.swift */,
+				9049673226B0662200019688 /* SceneDelegate.swift */,
+				9049673426B0662200019688 /* ViewController.swift */,
+				9049673626B0662200019688 /* Main.storyboard */,
+				9049673C26B0662400019688 /* Assets.xcassets */,
+				9049673E26B0662400019688 /* LaunchScreen.storyboard */,
+				9049674126B0662400019688 /* Info.plist */,
+				9049673926B0662200019688 /* DicodingSubmission.xcdatamodeld */,
+			);
+			path = DicodingSubmission;
+			sourceTree = "<group>";
+		};
+		9049674926B0662400019688 /* DicodingSubmissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				9049674A26B0662400019688 /* DicodingSubmissionTests.swift */,
+				9049674C26B0662400019688 /* Info.plist */,
+			);
+			path = DicodingSubmissionTests;
+			sourceTree = "<group>";
+		};
+		9049675426B0662400019688 /* DicodingSubmissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9049675526B0662400019688 /* DicodingSubmissionUITests.swift */,
+				9049675726B0662400019688 /* Info.plist */,
+			);
+			path = DicodingSubmissionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9049672C26B0662200019688 /* DicodingSubmission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9049675A26B0662400019688 /* Build configuration list for PBXNativeTarget "DicodingSubmission" */;
+			buildPhases = (
+				9049672926B0662200019688 /* Sources */,
+				9049672A26B0662200019688 /* Frameworks */,
+				9049672B26B0662200019688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DicodingSubmission;
+			productName = DicodingSubmission;
+			productReference = 9049672D26B0662200019688 /* DicodingSubmission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9049674526B0662400019688 /* DicodingSubmissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9049675D26B0662400019688 /* Build configuration list for PBXNativeTarget "DicodingSubmissionTests" */;
+			buildPhases = (
+				9049674226B0662400019688 /* Sources */,
+				9049674326B0662400019688 /* Frameworks */,
+				9049674426B0662400019688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9049674826B0662400019688 /* PBXTargetDependency */,
+			);
+			name = DicodingSubmissionTests;
+			productName = DicodingSubmissionTests;
+			productReference = 9049674626B0662400019688 /* DicodingSubmissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9049675026B0662400019688 /* DicodingSubmissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9049676026B0662400019688 /* Build configuration list for PBXNativeTarget "DicodingSubmissionUITests" */;
+			buildPhases = (
+				9049674D26B0662400019688 /* Sources */,
+				9049674E26B0662400019688 /* Frameworks */,
+				9049674F26B0662400019688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9049675326B0662400019688 /* PBXTargetDependency */,
+			);
+			name = DicodingSubmissionUITests;
+			productName = DicodingSubmissionUITests;
+			productReference = 9049675126B0662400019688 /* DicodingSubmissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9049672526B0662200019688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9049672C26B0662200019688 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9049674526B0662400019688 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9049672C26B0662200019688;
+					};
+					9049675026B0662400019688 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9049672C26B0662200019688;
+					};
+				};
+			};
+			buildConfigurationList = 9049672826B0662200019688 /* Build configuration list for PBXProject "DicodingSubmission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9049672426B0662200019688;
+			productRefGroup = 9049672E26B0662200019688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9049672C26B0662200019688 /* DicodingSubmission */,
+				9049674526B0662400019688 /* DicodingSubmissionTests */,
+				9049675026B0662400019688 /* DicodingSubmissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9049672B26B0662200019688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049674026B0662400019688 /* LaunchScreen.storyboard in Resources */,
+				9049673D26B0662400019688 /* Assets.xcassets in Resources */,
+				9049673826B0662200019688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049674426B0662400019688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049674F26B0662400019688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9049672926B0662200019688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049673B26B0662200019688 /* DicodingSubmission.xcdatamodeld in Sources */,
+				9049673526B0662200019688 /* ViewController.swift in Sources */,
+				9049673126B0662200019688 /* AppDelegate.swift in Sources */,
+				9049673326B0662200019688 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049674226B0662400019688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049674B26B0662400019688 /* DicodingSubmissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9049674D26B0662400019688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9049675626B0662400019688 /* DicodingSubmissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9049674826B0662400019688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9049672C26B0662200019688 /* DicodingSubmission */;
+			targetProxy = 9049674726B0662400019688 /* PBXContainerItemProxy */;
+		};
+		9049675326B0662400019688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9049672C26B0662200019688 /* DicodingSubmission */;
+			targetProxy = 9049675226B0662400019688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9049673626B0662200019688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9049673726B0662200019688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9049673E26B0662400019688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9049673F26B0662400019688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9049675826B0662400019688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9049675926B0662400019688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9049675B26B0662400019688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				INFOPLIST_FILE = DicodingSubmission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "il.infinite-learning.DicodingSubmission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9049675C26B0662400019688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				INFOPLIST_FILE = DicodingSubmission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "il.infinite-learning.DicodingSubmission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9049675E26B0662400019688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				INFOPLIST_FILE = DicodingSubmissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "il.infinite-learning.DicodingSubmissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DicodingSubmission.app/DicodingSubmission";
+			};
+			name = Debug;
+		};
+		9049675F26B0662400019688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				INFOPLIST_FILE = DicodingSubmissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "il.infinite-learning.DicodingSubmissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DicodingSubmission.app/DicodingSubmission";
+			};
+			name = Release;
+		};
+		9049676126B0662400019688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				INFOPLIST_FILE = DicodingSubmissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "il.infinite-learning.DicodingSubmissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DicodingSubmission;
+			};
+			name = Debug;
+		};
+		9049676226B0662400019688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				INFOPLIST_FILE = DicodingSubmissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "il.infinite-learning.DicodingSubmissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DicodingSubmission;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9049672826B0662200019688 /* Build configuration list for PBXProject "DicodingSubmission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049675826B0662400019688 /* Debug */,
+				9049675926B0662400019688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9049675A26B0662400019688 /* Build configuration list for PBXNativeTarget "DicodingSubmission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049675B26B0662400019688 /* Debug */,
+				9049675C26B0662400019688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9049675D26B0662400019688 /* Build configuration list for PBXNativeTarget "DicodingSubmissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049675E26B0662400019688 /* Debug */,
+				9049675F26B0662400019688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9049676026B0662400019688 /* Build configuration list for PBXNativeTarget "DicodingSubmissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049676126B0662400019688 /* Debug */,
+				9049676226B0662400019688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9049673926B0662200019688 /* DicodingSubmission.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9049673A26B0662200019688 /* DicodingSubmission.xcdatamodel */,
+			);
+			currentVersion = 9049673A26B0662200019688 /* DicodingSubmission.xcdatamodel */;
+			path = DicodingSubmission.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9049672526B0662200019688 /* Project object */;
+}
